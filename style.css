@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    background-image:linear-gradient(lightyellow, lightpink) ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.logo{
+    position: absolute;
+    top:35px;
+    width: 70px;
+    height: 80px;
+    left: 20px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: lighter;
+    margin: 50px;
+    padding:20px;
+    font-size: 20px;
+
+}
+
+.ma{
+    text-align: center;
+    font-weight: lighter;
+}
+    
+li:hover{
+    font-size: 25px;
+    border:3px solid lightpink;
+    border-radius: 3px;
+    transition: all 1s linear;
+}
+
+
+.vid{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    
+}
+
+nav {
+    padding:30px;
+    margin:5px ;
+    
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.nav-link {
+    font-size: 24px;
+    color:black;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: lighter;
+    
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 45px;
+   
+}
+
+.spis{
+    display: flex;
+    font-weight: lighter;
+    
+}
+
+
+footer{
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 40px;
+   
+}
+
+footer:hover{
+    font-weight: lighter;
+    font-size: 25px;
+    background-color: lightyellow;
+    border-radius: 15px;
+    padding:20px;
+    transition: all 1.5s linear;
+}
+
+a:hover{
+    padding:10px;
+    background-color: lightpink;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: all 1s linear;
+}
